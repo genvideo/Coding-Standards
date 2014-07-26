@@ -1,0 +1,5 @@
+<ul class="nav nav-pills">
+{% for nav in site.data.nav %}
+    <li{% if page.url == nav.url %} class="active"{% endif %}><a href="{{ nav.url }}">{{ nav.text }}</a></li>
+{% endfor %}
+</ul>

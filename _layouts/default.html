@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ page.title }} :: Expo Coding Standards</title>
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="//backstage.expotv.com/css/bootstrap2.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="shortcut icon" href="//images.expotv.com/favicon.ico">
+</head>
+<body class="{{ page.url }}">
+    <div class="page-wrap">
+    <header>
+        <nav role="navigation">
+            {% include nav.html %}
+        </nav>
+    </header>
+    {{ content }}
+    </div>
+</body>
+</html>
